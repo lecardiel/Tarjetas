@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1f1d22;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.imagenes img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    object-fit: cover; 
+}
+
+.imagenes img.selected {
+    border-color: red;
+}
+
+.card-preview {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: center;
+    position: relative;
+}
+
+#titulo {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#mensaje {
+    font-size: 18px;
+}
+
+#autor {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: gray;
+}
+
+.formulario {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.formulario input, .formulario textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #9b9b9b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta Personalizadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crea tu tarjeta de Felicitación</h1>
+
+        <div class="controls">
+            <label for="tema">❤️Elige un Tema:</label>
+            <select id="tema">
+                <option value="San Valentin">San Valentín</option>
+                <option value="Cumpleaños">Cumpleaños</option>
+                <option value="Navidad">Navidad</option>
+            </select>
+
+            <label for="fondo">🖌️Color de Fondo:</label>
+            <input type="color" id="fondo" value="#ffffff">
+
+            <label for="imagen">🖼️Elige una Imagen:</label>
+            <div class="imagenes" id="imagenes-container">
+            </div>
+        </div>
+
+        <div class="formulario">
+            <label for="autor-input">Nombre:</label>
+            <input type="text" id="autor-input" placeholder="Capture el nombre de la persona">
+
+            <label for="titulo-input">Título:</label>
+            <input type="text" id="titulo-input" placeholder="Capture un título">
+
+            <label for="mensaje-input">Mensaje:</label>
+            <textarea id="mensaje-input" placeholder="Capture el cuerpo del mensaje."></textarea>
+
+            <button id="crear-tarjeta">Crear Tarjeta</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
